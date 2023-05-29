@@ -24,11 +24,11 @@ def switch_window():
 
 switch_window()
 count = 1
-for x in range (0, PLAYER_COUNT):
+for x in range(0, PLAYER_COUNT):
     # open chat
     pyautogui.press('t')
     pyautogui.typewrite('/tpahere ')
-    for x in range(0, count):
+    for y in range(0, count):
         pyautogui.press('tab')
     count += 1
     pyautogui.press('enter')
